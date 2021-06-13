@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.news {
+  padding: 80px 0;
+}
+
+.news-item {
+  display: block;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.news-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.news-item-date {
+  margin-right: 10px;
+}
+
+.news-item-ttl {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .news-item {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

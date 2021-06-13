@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.company {
+  padding: 80px 0;
+}
+
+.company-info {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.company-info th,
+.company-info td {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #666;
+  padding: 20px;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.service {
+  padding: 80px 0;
+}
+
+.service-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-top: 1px solid #666;
+}
+
+.service-item:last-child {
+  border-bottom: 1px solid #666;
+}
+
+.service-item-img {
+  width: 300px;
+  margin-right: 30px;
+}
+
+.service-item-detail {
+  flex: 1;
+}
+
+.service-item-ttl {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .service-item {
+    display: block;
+  }
+
+  .service-item-img {
+    width: 100%;
+  }
+}
